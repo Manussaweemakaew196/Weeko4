@@ -10,8 +10,13 @@ namespace Lab_1
     {
         static void Main(string[] args)
         {
-             Console.WriteLine("Hello");
-            Console.WriteLine("Hello");
+            int n = 123456789;
+            Console.WriteLine("{0, 0:E}", n);
+            Console.WriteLine("{0, 0:F}", n);
+            Console.WriteLine("{0, 0:G}", n);
+            Console.WriteLine("{0, 0:N}", n);
+            Console.WriteLine("{0, 0:P}", n);
+            Console.WriteLine("{0, 0:X}", n);
 
         }
     }
