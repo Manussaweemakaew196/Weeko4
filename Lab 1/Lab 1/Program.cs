@@ -10,9 +10,9 @@ namespace Lab_1
     {
         static void Main(string[] args)
         {
-             Console.WriteLine("This is taxt 1.");
-             Console.WriteLine("This is taxt 2.");
-            Console.WriteLine("This is taxt 3.");
+           
+            Console.WriteLine(" {0} and {1}", 3, 6);
+           
 
 
 
