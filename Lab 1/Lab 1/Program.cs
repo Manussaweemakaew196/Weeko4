@@ -6,21 +6,25 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Console.Write("Please enter value 1 :");
-                int val1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Please enter value 2 :");
-                int val2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Answer = " + (val1 + val2));
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error : " + e.ToString());
-            }
+            bool A, B, Y;
+            Console.WriteLine("      Y = A AND B");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("   A      B\t|  Y");
+            Console.WriteLine("-----------------------");
+            A = false; B = false; Y = A & B;
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = false; B = true; Y = A & B;
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = true; B = false; Y = A & B;
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            A = true; B = true; Y = A & B;
+            Console.WriteLine(" {0}\t{1}\t| {2}", A, B, Y);
+            Console.WriteLine("-----------------------");
         }
     }
 }
+
+
 
 
 
