@@ -1,10 +1,6 @@
-﻿using System;
-
-
-
-
-
-namespace Lab_1
+﻿
+using System;
+namespace Lab01
 {
     class Program
     {
@@ -14,11 +10,11 @@ namespace Lab_1
             Console.Write("Enter some characters.");
             str = Console.Read();
             Console.WriteLine("You entered: " + str);
-
-
-
-
-
         }
     }
 }
+
+
+
+
+
