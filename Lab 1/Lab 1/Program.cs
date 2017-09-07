@@ -6,8 +6,8 @@ namespace variableProperties
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type :  long ");
-            Console.WriteLine("Size :" + sizeof(long));
+            Console.WriteLine("Data type :  Ulong ");
+            Console.WriteLine("Size :" + sizeof(Ulong));
             Console.WriteLine("Minimum Value :" + int.MinValue);
             Console.WriteLine("Maximum Value :" + int.MaxValue);
 
